@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tech Form</title>
+<link href="styles.css" rel="stylesheet"/>
+</head>
+
+<div class="content">
+
+<h1 id="title">Front-End Tech Stack Survey Form</h1>
+
+<p id="description">For the job market to know what tech stack in the most employers preference!</p>
+
+<form id="survey-form">
+
+
+<label id="name-label">Name
+    <input id="name" type="text" placeholder="Your Name" required>
+</label>
+
+<label id="email-label">Email
+    <input id="email" placeholder="Email" type="email" required>
+</label>
+
+<label id="number-label">Number
+    <input id="number" type="number" min=10000 max= 10000000 placeholder="Number">
+</label>
+
+<h2>Company Sector</h2>
+<label>  <select id="dropdown">
+  <option value="Fintech">Fintech</option>
+    <option value="Gaming">Gaming</option>
+      <option value="CyberSecurity">CyberSecurity</option>
+    <option value="Others">Others</option>
+</select>
+</label>
+
+<h2>FrameWork
+
+</h2>
+<label>
+  <input name="FrontEnd" class="FrontEnd"
+   type="radio" value="ReactJS">ReactJS
+   </label>
+<label>
+  <input name="FrontEnd" 
+  class="FrontEnd" type="radio" value="Vue">Vue
+  </label>
+
+<label>
+  <input name="FrontEnd" 
+  class="FrontEnd" type="radio" value="Ruby">Ruby
+</label>
+
+<h2>Skills</h2>
+<label>
+  <input class="skills" type="checkbox" value="CRUD">CRUD
+</label>
+
+<label>
+  <input class="skills" type="checkbox" value="OOP">OOP
+</label>
+
+<label>
+  <input class="skills" type="checkbox" value="Aglie Cycle">Aglie Software Cycle 
+</label>
+
+<h5>How would you like to promote your company?</h5>
+<textarea>
+</textarea>
+
+
+<button id="submit" type="submit">
+  </button>
+
+</div>
+
+</form>
+
+
+
