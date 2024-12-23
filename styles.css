@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology-vector_53876-151537.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+    color: #003366;
+  }
+  
+  #description {
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 0 20px;
+  }
+  
+  .content {
+    max-width: 500px;
+    margin: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  textarea {
+    min-height: 100px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    background-color: #003366;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #00509e;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #003366;
+  }
+  
+  input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+  }
+  
